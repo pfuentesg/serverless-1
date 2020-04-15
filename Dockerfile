@@ -11,7 +11,7 @@ ENV PATH /root/.yarn/bin:$PATH
 # install aws-cli
 RUN pip install awscli
 
-ARG SERVERLESS_VERSION=1.26.0
+ARG SERVERLESS_VERSION=1.67.3
 
 # install serverless
 RUN npm install serverless@$SERVERLESS_VERSION -g --silent
