@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:12-alpine
 
 # install curl, python tooling and other utilities
 RUN apk add --update curl python-dev py-pip screen gpgme && pip install --upgrade pip && \
